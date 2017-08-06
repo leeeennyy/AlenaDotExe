@@ -16,13 +16,13 @@ def get_search(pattern, text):
 
 def commands(x):
     return {
-        'commands': '!coolkids | !discord | !donate | !elo | !emotes | !girth | !social',
+        'commands': '!coolkids | !discord | !elo | !girth | !overkill | !social',
         'coolkids': 'Dane [twitch.tv/dhQk] | Jordan [twitch.tv/IncredFruityTV] | Rag [twitch.tv/Ragnarok1stx]',
         'discord': 'Come have some yarns with me at discord.gg/xGBFGZx',
-        'donate': 'Thanks for thinking about donating',
         'elo': 'goo.gl/DUhU6j',
-        'emotes': 'leeeenLove leeeenKiss',
+        #'emotes': 'leeeenLove leeeenKiss',
         'girth': 'I thought the Witcher card game was GIRTH instead of GWENT',
+        'overkill': 'A tabletop RPG developed by Joseph Barber goo.gl/bmV3vq',
         'social': 'Get updates on my life at twitter.com/leeeennyy'
     }.get(x, 'This ain\'t a command. Please look at !commands')
 
