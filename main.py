@@ -24,9 +24,9 @@ def commands(x):
         #'emotes': 'leeeenLove leeeenKiss',
         'girth': 'I thought the Witcher card game was GIRTH instead of GWENT',
         'overkill': 'A tabletop RPG developed by Joseph Barber goo.gl/bmV3vq',
-		'sens': '1600 dpi; 1.92 in game',
+        'sens': '1600 dpi; 1.92 in game',
         'social': 'Get updates on my life at twitter.com/leeeennyy',
-		'yusss' : 'Thank you for all the support everyone! We made it to 100+ followers!',
+        'yusss' : 'Thank you for all the support everyone! We made it to 100+ followers!',
     }.get(x, 'This ain\'t a command. Please look at !commands')
 
 def main():
