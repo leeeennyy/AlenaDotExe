@@ -17,7 +17,7 @@ def get_search(pattern, text):
 
 def commands(x):
     return {
-        'commands': '!coolkids | !discord | !elo | !girth | !overkill | !social',
+        'commands': '!coolkids | !discord | !elo | !girth | !overkill | !sens | !social | !yusss',
         'coolkids': 'Dane [twitch.tv/dhQk] | Jordan [twitch.tv/IncredFruityTV] | Leon [twitch.tv/LeoniLive] | Mitchell [twitch.tv/SenOokami] | MK [twitch.tv/Zexy_DemoN] | Rag [twitch.tv/Ragnarok1stx] | Sam [twitch.tv/Amorisaiya] | Sav [twitch.tv/Amorisaiya]',
         'discord': 'Come have some yarns with me at discord.gg/xGBFGZx',
         'elo': 'goo.gl/DUhU6j',
