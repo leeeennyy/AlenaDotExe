@@ -33,21 +33,25 @@ def uptime():
     else:
         return uptime + f'{hours} hours, {minutes} minutes and {seconds} seconds.'
     #return time.strftime("Leeny has been streaming for %H hours, %M minutes and %S seconds.", time.gmtime(time.time() - start_time))
+	
+def localtime():
+	return time.strftime('%A, %d %B %Y %H:%M:%S for Leeny', time.localtime())
 
 def commands(x):
     return {
-        'commands': '!discord | !elo | !girth | !overkill | !rekt | !sens | !social | !subtember | !thanks | !uptime',
+        'commands': '!discord | !elo | !girth | !rekt | !sens | !social | !time | !uptime',
         #'coolkids': 'Dane [twitch.tv/dhQk] | Jordan [twitch.tv/IncredFruityTV] | Leon [twitch.tv/LeoniLive] | Mitchell [twitch.tv/SenOokami] | MK [twitch.tv/Zexy_DemoN] | MyselfWhat [twitch.tv/MyselfWhat] | Rag [twitch.tv/Ragnarok1stx] | Sam [twitch.tv/SamKayNZ] | Sav [twitch.tv/Amorisaiya]',
         'discord': 'Come have some yarns with me at discord.gg/xGBFGZx',
         'elo': 'goo.gl/DUhU6j',
         #'emotes': 'leeeenLove leeeenKiss',
         'girth': 'I thought the Witcher card game was GIRTH instead of GWENT',
-        'overkill': 'A tabletop RPG developed by Joseph Barber goo.gl/bmV3vq',
+        #'overkill': 'A tabletop RPG developed by Joseph Barber goo.gl/bmV3vq',
         'rekt': '☐ Not rekt ☑ Rekt',
         'sens': '1600 dpi; 1.92 in game',
         'social': 'Get updates on my life at twitter.com/leeeennyy',
-		'subtember': 'They\'re half price at the moment if you want to sub',
-		'thanks': 'Thank you for all the support everyone! We made it to 100+ followers!',
+		#'subtember': 'They\'re half price at the moment if you want to sub',
+		#'thanks': 'Thank you for all the support everyone! We made it to 100+ followers!',
+		'time': localtime(),
         'uptime': uptime(),
     }.get(x, 'This isn\'t a command. Please look at !commands')
 
